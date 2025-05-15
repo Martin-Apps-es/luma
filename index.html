@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luma - ¿Tienes algo en mente?</title>
+  <!-- Tailwind CSS vía CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap');
+    body { font-family: 'Fredoka', sans-serif; scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex flex-col items-center justify-center text-center px-4 relative overflow-hidden">
+    <!-- Fondo decorativo -->
+    <div class="absolute top-0 left-0 w-full h-full -z-10">
+      <div class="w-80 h-80 bg-pink-500 opacity-20 rounded-full absolute top-10 left-10 blur-3xl animate-pulse"></div>
+      <div class="w-96 h-96 bg-purple-500 opacity-20 rounded-full absolute bottom-10 right-10 blur-3xl animate-pulse"></div>
+    </div>
+    <h1 class="text-4xl md:text-5xl font-semibold mb-4 animate-fadeInUp">Luma: ¿Tienes algo en mente? Aquí puedes contarlo.</h1>
+    <h2 class="text-lg md:text-xl mb-8 max-w-xl animate-fadeInUp delay-200">Un espacio privado y seguro donde puedes hablar con un bot que escucha de verdad. Totalmente anónimo. Nadie accede a tus conversaciones.</h2>
+    <a href="inicio.html" class="bg-pink-500 hover:scale-105 hover:shadow-lg transition-transform duration-300 text-white text-lg font-semibold px-6 py-3 rounded-full animate-fadeInUp delay-500">Comienza la conversación</a>
+  </section>
+
+  <!-- ¿Cómo funciona? -->
+  <section class="py-20 bg-gray-800 text-center px-4">
+    <h2 class="text-2xl font-semibold mb-10">¿Cómo funciona Luma?</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="fade-in p-6 rounded-lg bg-gray-700 shadow-md">
+        <img src="https://img.icons8.com/ios-filled/100/ffffff/edit.png" class="mx-auto mb-4" alt="Escribe"/>
+        <p class="text-lg font-medium">Escribe lo que sientas</p>
+      </div>
+      <div class="fade-in p-6 rounded-lg bg-gray-700 shadow-md">
+        <img src="https://img.icons8.com/ios-filled/100/ffffff/heart-with-pulse.png" class="mx-auto mb-4" alt="Empatía"/>
+        <p class="text-lg font-medium">Recibe respuestas empáticas</p>
+      </div>
+      <div class="fade-in p-6 rounded-lg bg-gray-700 shadow-md">
+        <img src="https://img.icons8.com/ios-filled/100/ffffff/chat.png" class="mx-auto mb-4" alt="Habla"/>
+        <p class="text-lg font-medium">Habla todo lo que necesites</p>
+      </div>
+    </div>
+    <div class="mt-10">
+      <a href="inicio.html" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-full transition-transform hover:scale-105">Probar ahora</a>
+    </div>
+  </section>
+
+  <!-- Nueva Sección: Historias de usuarios -->
+  <section class="py-20 px-4 bg-gray-900 text-center">
+    <h2 class="text-2xl font-semibold mb-6">Personas que ya usan Luma</h2>
+    <div class="max-w-4xl mx-auto space-y-8">
+      <div class="fade-in bg-gray-800 p-6 rounded-xl shadow-md">
+        <p class="text-lg italic">“Es como tener un espacio donde puedo soltar lo que llevo dentro, sin presión.”</p>
+        <p class="mt-2 font-medium">— Usuario anónimo</p>
+      </div>
+      <div class="fade-in bg-gray-800 p-6 rounded-xl shadow-md">
+        <p class="text-lg italic">“Me ayudó a ver mis emociones desde otro ángulo. Es muy reconfortante.”</p>
+        <p class="mt-2 font-medium">— Persona usuaria</p>
+      </div>
+    </div>
+    <div class="mt-10">
+      <a href="inicio.html" class="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-full transition-transform hover:scale-105">Habla con Luma ahora</a>
+    </div>
+  </section>
+
+  <!-- Sección: ¿Qué puedes contar aquí? -->
+  <section class="py-20 px-4 bg-gray-800 text-center">
+    <h2 class="text-2xl font-semibold mb-6">¿Qué puedes contar aquí?</h2>
+    <p class="max-w-2xl mx-auto mb-8">Desde pequeños malestares cotidianos hasta emociones que llevas tiempo guardando. No hay temas correctos o incorrectos.</p>
+    <a href="inicio.html" class="bg-indigo-500 hover:bg-indigo-600 text-white px-6 py-3 rounded-full font-semibold transition-transform hover:scale-105">Empieza a expresarte</a>
+  </section>
+
+  <!-- Sección: Ideal para momentos difíciles -->
+  <section class="py-20 px-4 bg-gray-900 text-center">
+    <h2 class="text-2xl font-semibold mb-6">Ideal para momentos difíciles</h2>
+    <p class="max-w-2xl mx-auto mb-8">Cuando necesitas soltar lo que llevas dentro pero no sabes por dónde empezar, Luma está ahí para ti.</p>
+    <a href="inicio.html" class="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-full font-semibold transition-transform hover:scale-105">Contar lo que siento</a>
+  </section>
+
+  <!-- Sección: Accede desde cualquier lugar -->
+  <section class="py-20 px-4 bg-gray-800 text-center">
+    <h2 class="text-2xl font-semibold mb-6">Accede desde cualquier lugar</h2>
+    <p class="max-w-2xl mx-auto mb-8">No importa dónde estés o la hora. Si necesitas hablar, Luma está disponible 24/7. Tus mensajes son totalmente privados.</p>
+    <a href="inicio.html" class="bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-3 rounded-full font-semibold transition-transform hover:scale-105">Abrir el chat ahora</a>
+  </section>
+
+  <!-- CTA final -->
+  <section id="cta" class="py-20 px-4 text-center bg-gray-900">
+    <div class="max-w-xl mx-auto bg-gray-800 p-8 rounded-2xl shadow-md">
+      <h2 class="text-2xl font-semibold mb-4">¿Listo para probar Luma? Está aquí para ti.</h2>
+      <p class="text-sm mb-4">Totalmente anónimo. Nunca compartimos lo que escribes.</p>
+      <a href="inicio.html" class="bg-pink-500 hover:scale-105 hover:shadow-lg transition-transform duration-300 text-white text-lg font-semibold px-6 py-3 rounded-full inline-block">Iniciar charla</a>
+    </div>
+  </section>
+
+  <!-- Animación fade-in al hacer scroll -->
+  <script>
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-fadeIn');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => {
+      el.classList.add('opacity-0');
+      observer.observe(el);
+    });
+  </script>
+
+  <style>
+    .animate-fadeIn {
+      opacity: 1 !important;
+      transform: translateY(0);
+      transition: opacity 1.2s ease, transform 1.2s ease;
+    }
+    .animate-fadeInUp {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeInUp 1.2s ease forwards;
+    }
+    .animate-fadeInUp.delay-200 {
+      animation-delay: 0.2s;
+    }
+    .animate-fadeInUp.delay-500 {
+      animation-delay: 0.5s;
+    }
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</body>
+</html>

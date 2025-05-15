@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luma - Inicio</title>
+  <!-- Tailwind CSS vía CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap');
+    body { font-family: 'Fredoka', sans-serif; scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-gray-900 text-white flex flex-col justify-center items-center min-h-screen px-4">
+  <!-- Bienvenida -->
+  <div class="text-center mb-10 animate-fadeInUp">
+    <h1 class="text-3xl md:text-4xl font-bold mb-4">Bienvenido a Luma</h1>
+    <p class="text-lg text-gray-300">Un espacio privado para expresar lo que sientes</p>
+  </div>
+
+  <!-- Pregunta principal -->
+  <div class="bg-gray-800 p-6 rounded-2xl shadow-lg max-w-md w-full text-center animate-fadeInUp">
+    <p class="text-xl font-medium mb-6">¿Es la primera vez que utilizas Luma en este dispositivo?</p>
+    <div class="flex flex-col gap-4">
+      <a href="alta.html" class="bg-pink-500 hover:bg-pink-600 transition-colors px-6 py-3 rounded-full font-semibold text-white">Sí. Configurar un PIN</a>
+      <a href="login.html" class="bg-blue-500 hover:bg-blue-600 transition-colors px-6 py-3 rounded-full font-semibold text-white">No. Introducir mi PIN</a>
+    </div>
+  </div>
+
+  <style>
+    .animate-fadeInUp {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeInUp 1s ease forwards;
+    }
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</body>
+</html>
